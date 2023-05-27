@@ -6,8 +6,8 @@ for NBS.
 This tool must be run with x86 Python in order to be compatible with x86 PKCS11 libraries.
 - Find an Intel-only Python installer on https://www.python.org/downloads/
 - Install it. Note the installation location such as `/Library/Frameworks/Python.framework/Versions/3.9`
-- Install pip requirements: `/Library/Frameworks/Python.framework/Versions/3.9/bin/pip3 install -r requirements.txt`
-
+- Use the newly installed pip instance to install mup-xml-sign: `/Library/Frameworks/Python.framework/Versions/3.9/bin/pip3 install mup-xml-sign`
+- The tools is now installed at `/Library/Frameworks/Python.framework/Versions/3.9/bin/mup-xml-sign`
 # Usage
 
 - Locate the path of your unsigned XML file, such as `/path/to/unsigned.xml`
@@ -16,7 +16,7 @@ This tool must be run with x86 Python in order to be compatible with x86 PKCS11 
 - Run the tool:
 
 ```
-/Library/Frameworks/Python.framework/Versions/3.9/bin/python3 sign.py -i /path/to/unsigned.xml -o /path/to/signed.xml
+/Library/Frameworks/Python.framework/Versions/3.9/bin/mup-xml-sign -i /path/to/unsigned.xml -o /path/to/signed.xml
 ```
 
 - If you have multiple card readers, you will be prompted to choose one interactively
