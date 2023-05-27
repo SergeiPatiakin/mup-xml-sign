@@ -1,0 +1,3 @@
+python-pkcs11
+lxml
+cryptography
