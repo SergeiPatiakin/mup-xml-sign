@@ -1,9 +1,9 @@
-This tool allows you to sign XMLs on Mac using Serbian MUP-issued smart cards, e.g. HOV-DA2 reports
-for NBS.
+`mup-xml-sign` allows you to sign XMLs on Mac using Serbian MUP-issued smart cards. This can be
+useful for e.g. generating HOV-DA2 reports for NBS.
 
 # Installation
 
-This tool must be run with x86 Python in order to be compatible with x86 PKCS11 libraries.
+`mup-xml-sign` must be run with x86 Python in order to be compatible with x86 PKCS11 libraries.
 - Find an Intel-only Python installer on https://www.python.org/downloads/
 - Install it. Note the installation location such as `/Library/Frameworks/Python.framework/Versions/3.9`
 - Use the newly installed pip instance to install mup-xml-sign: `/Library/Frameworks/Python.framework/Versions/3.9/bin/pip3 install mup-xml-sign`
